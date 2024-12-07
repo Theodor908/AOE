@@ -13,6 +13,7 @@ public class Program
     static string possibleSigns = "+*_";
     public static void Main(string[] args)
     {
+        // Custom class to read files
         string[] eqs = ReadFile.ReadFromFile();
         long sum = 0;
         foreach(string eq in eqs)
